@@ -1,0 +1,50 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-radius: 5px;
+  width: 70%;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.linkBack {
+  color: blueviolet;
+  text-decoration: underline blueviolet;
+}
+
+.titleCharacter {
+  color: blueviolet;
+  text-decoration: underline blueviolet;
+}
+
+.imgChaaracter {
+  border-radius: 5px;
+}
+
+.infoCharacter {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.infoCharacter p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.infoCharacter div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.statusChaaracter {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: green;
+  border-radius: 5px;
+  color: aliceblue;
+}
